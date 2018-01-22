@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>VInit Kadam</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Style.css">
+  
+  <script src="https://use.fontawesome.com/2796ea936d.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+	$(document).ready(function(){
+	  // Add smooth scrolling to all links in navbar + footer link
+	  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+	   // Make sure this.hash has a value before overriding default behavior
+	  if (this.hash !== "") {
+		// Prevent default anchor click behavior
+		event.preventDefault();
+		// Store hash
+		var hash = this.hash;
+		// Using jQuery's animate() method to add smooth page scroll
+		// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+		$('html, body').animate({
+		  scrollTop: $(hash).offset().top
+		}, 900, function(){
+		  // Add hash (#) to URL when done scrolling (default click behavior)
+		  window.location.hash = hash;
+		  });
+		} // End if
+	  });
+	})
+	</script>
+	
+	<link rel="shortcut icon" href="favicon.png" >
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+	
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>
+		</div>
+		<div class="collapse navbar-collapse" id="mainMenu">
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#about">ABOUT</a></li>
+			<li><a href="#exp">EXPERIENCE</a></li>
+			<li><a href="#education">EDUCATION</a></li>
+			<li><a href="#projects">PROJECTS</a></li>
+			<li><a href="#skills">SKILLS</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	
+	<div id="home" class="container-fluid background text-center">	
+		<div class="inner-home">
+			<h1>Vinit Kadam</h1>
+			<h5>Software Developer</h5>
+			<hr/>
+			<ul class="social">
+               <li><a href="https://www.facebook.com/vinit.kadam.1042" target="_blank" ><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/vinit-kadam-3a9b4053/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://plus.google.com/u/0/102922177718064962299" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="skype:vinitkadam4?call"><i class="fa fa-skype"></i></a></li>
+               <li><a href="https://github.com/vinitkadam31" target="_blank"><i class="fa fa-github-square"></i></a></li>
+               <li><a href="mailto:vkadam2@binghamton.edu"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+		</div>
+	</div>
+	
+	<div id="about" class="container-fluid background text-center" >
+	  <h2>ABOUT ME</h2>
+		<div class="row inner-about" >
+			<div class="col-md-4 text-center">
+				<img src="Me.jpg" class="img-responsive img-circle" alt="Vinit Kadam">					
+			</div>
+			<div class="col-md-8 text-left bio">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="text-muted">Hello, my name is Vinit! I am a graduate student pursuing Master of Science in Computer Science at Binghamton University.<br/><br/>I have strong programming and algorithm skills with 5 years of experience in the software industry. I have a strong passion for the creativity and discipline that goes into the full stack development. I enjoy being challenged and working on projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to me.<br/><br/>This portfolio highlights some of my work. Feel free to browse and contact me with any questions by <a href="mailto:vkadam2@binghamton.edu">emailing</a> me.</p>
+					</div>
+					<div class="col-md-12 text-center" style="line-height:100px;">
+						<a href="Vinit_Kadam_Resume.pdf" target="_blank" class="btn btn-primary btn-xl"><span class="glyphicon glyphicon-download"></span>&nbsp;Download Resume</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="exp" class="container-fluid background text-center">
+	  <h2>EXPERIENCE</h2>
+	  <ul class="timeline">
+		<li><div class="tldate">July 2017</div></li>
+    
+		<li>
+		  <div class="tl-circ"></div>
+		  <div class="timeline-panel text-muted">
+			<h4>Senior Programmer at Aurionpro Solutions Limited, Mumbai, India</h4>
+			<div class="tl-body intro-data">
+				<p>Sept 2012 to July 2017</p>
+				<p>Developed window and web applications using C#.Net, ASP.Net, ASP.Net MVC, AJAX, CSS, LINQ, JQuery, JavaScript, SQL Server 2012, Window Service, ASP.Net Web API. Also created functional & system requirement documents by properly understanding the customer’s requirement and utilized strong interpersonal and communications skills to serve customers. <B>Received various awards for excellent performance.</B> </p>				
+			</div>
+		  </div>
+		</li>
+		
+	  </ul>
+	 </div>
+	
+	<div id="education" class="container-fluid background text-center">
+		<h2>EDUCATION</h2>
+		<div class="row text-muted">
+			<div class="col-md-1"></div>
+			<div class="col-md-4 panel-border" >
+				<h4>Binghamton University</h4>
+				<h3 class="text-muted">Fall 2017 - Fall 2019(Expected)</h3>
+				<h3 class="text-muted">MS in Computer Science</h3>
+				<div class="panel panel-default panel-responsive text-left">
+					<div class="panel-heading">Relevant Coursework</div>
+					<div class="panel-body">
+						<ul>
+							<li>Programming Languages</li>
+							<li>Programming Systems and Tools</li>
+							<li>Computer Architecture & Organization</li>
+							<li>Design Patterns</li>
+							<li>Design and Analysis of Algorithms</li>
+							<li>Operating System</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+			<div class="col-md-4 panel-border">
+				<h4>Atharva College of Engineering, Mumbai, India.</h4>
+				<h3 class="text-muted">August 2008 - May 2012</h3>
+				<h3 class="text-muted">B.E. in Computer Engineering</h3>
+				<div class="panel panel-default panel-responsive text-left">
+					<div class="panel-heading">Relevant Coursework</div>
+					<div class="panel-body">
+						<ul>
+							<li>Computer Architecture</li>
+							<li>Data Structure & Files</li>
+							<li>Database Management System</li>
+							<li>Web Engineering</li>
+							<li>Mobile Computing</li>
+							<li>System Security</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+	</div>
+	
+	<div id="projects" class="container-fluid background text-center">
+		<h2>PROJECTS</h2>
+		<div class="text-left text-muted">
+			<p class="intro-heading">Halfpenny Technologies</p>
+			<p class="intro-data border-bottom">Halfpenny Technologies, is dedicated to streamlining health care processes. I was involved in process of transferring patient information securely between different entities and in their respective formats. Also, responsible for maintaining different sites for displaying patient activities and its information. Technologies used: C#, ASP.net, JQuery, Ajax, MVC, Web Services, WCF, Web API, RavenDB, RabitMQ, Entity Framework, SQL</p>
+			
+			<p class="intro-heading">Edeposit</p>
+			<p class="intro-data border-bottom">EDeposit is a full service online financial services company that provides innovative and secure online deposit, settlement, payment and other financial services for a variety of consumers, merchants and businesses. Involved in development of critical modules and also Handled the project alone for 1.5 years and performed the different roles as per requirement. Technologies used: C#, ASP.net, JQuery, Ajax, Spring, Web Services, WCF, NHibernate, SQL Server.</p>
+			
+			<p class="intro-heading">Aurionpro Payment Framework (APF)</p>
+			<p class="intro-data border-bottom">APF is a base framework for all payment projects and it is functionally rich platform to help accept and process ACH payments. I was involved in enhancement of framework and creating API to consume its services. Technologies used: C#, ASP.net, JQuery, WCF, Web API 2, NHibernate, Spring, SQL Server.</p>
+			
+			<p class="intro-heading">Vertafore</p>
+			<p class="intro-data border-bottom">The project was about integration of two CRM system and I was involved in creating integration test cases. Technologies used: C#.net, LINQ, MS-Test, XML.</p>
+			
+			<p class="intro-heading">Travel Desk</p>
+			<p class="intro-data border-bottom">Travel Desk was an internal application through which travel desk department can track and process the request of traveler. I was involved in requirement gathering, estimation, development, project documentation and handled a development team.</p>
+			
+			<p class="intro-heading">Life Insurance Portal</p>
+			<p class="intro-data border-bottom">Developed this project using 3 different paradigm i.e. Java, SQL and Scala. This project is a web project with users consisting of the customers and employees. The customers can buy policies online, make changes related to the policy such as payment frequency change, update contact and address details etc and employees can process the policies i.e. they can accept/reject the policy.</p>
+			
+			<p class="intro-heading">Process Infix algebraic Expression</p>
+			<p class="intro-data border-bottom">It will evaluate the infix algebraic expression and will give desired output</p>
+			
+			<p class="intro-heading">Real Estate Agent</p>
+			<p class="intro-data border-bottom">Developed window and web application using technologies VB.Net, ASP.Net, Web Service, MS SQL Server 2005 in which User/client can use the system to search the desired property depending on need. It includes functionalities like notification management, bidding, interested user information.</p>
+			
+			<p class="intro-heading">Recruitment Process System for the HR group for Company</p>
+			<p class="intro-data border-bottom">Some features of this system: creating vacancies, storing Applicants data, Interview process initiation, Scheduling Interviews, Storing Interview results for the applicant and finally Hiring of the applicant. And one person (HR/Interviewer) can send mail to another person. Also, applicant can create their profile and HR can review it. Technologies used: Java, MS SQL Server</p>
+			
+			<p class="intro-heading">Customer Relationship Management</p>
+			<p class="intro-data">Developed Desktop based application using VB.Net, MS SQL 2005, software consolidates customer information and documents into a single CRM database so administrator can more easily access and manage it. It has workflow processes such as tasks, calendars and alerts, and gives administrator the ability to track performance and productivity based on information logged within the system.</p>
+		</div>
+	</div>
+	
+	<div id="skills" class="container-fluid background text-center">
+		<h2>SKILLS</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">C#</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">ASP.NET</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">ASP.NET MVC</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">Java</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">C++</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">C</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">PHP</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">RESTful Web Services</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">ASP.NET Web Services</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">ASP.NET Web API</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">Window Service</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">WCF</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">SQL Server 2012</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">MySQL</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">Ajax</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">HTML5</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">JQuery</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">JavaScript</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">CSS5</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">Bootstrap</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">Nhibernate</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">Entity Framework</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">Servlet</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel text-center">
+					<div class="panel-body skill-font">JSP</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="contact" class="container-fluid background text-center">		
+		<h2>Let's Get In Touch!</h2>
+		<i class="fa fa-envelope fa-4x"></i>
+		<h5>Address and Phone</h5>
+			<p class="intro-data">
+			   Vinit Kadam<br>
+			   3 1/2 Bellevue Avenue<br>
+			   Binghamton, NY 13905 US<br>
+			   <span>(607) 374-0604</span>
+			</p>
+		
+	</div>
+	
+	<footer class="container-fluid background text-center">
+	  <a href="#myPage" title="To Top">
+		<span class="glyphicon glyphicon-chevron-up"></span>
+	  </a>
+	  <ul class="social">
+	   <li><a href="https://www.facebook.com/vinit.kadam.1042" target="_blank" ><i class="fa fa-facebook"></i></a></li>
+	   <li><a href="https://www.linkedin.com/in/vinit-kadam-3a9b4053/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+	   <li><a href="https://plus.google.com/u/0/102922177718064962299" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+	   <li><a href="skype:vinitkadam4?call" target="_blank"><i class="fa fa-skype"></i></a></li>
+	   <li><a href="https://github.com/vinitkadam31" target="_blank"><i class="fa fa-github-square"></i></a></li>
+	   <li><a href="mailto:vkadam2@binghamton.edu" target="_blank"><i class="fa fa-envelope"></i></a></li>
+	</ul>
+	</footer>
+</body>
+</html>
